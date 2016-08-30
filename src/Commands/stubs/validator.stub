@@ -1,0 +1,32 @@
+<?php
+
+namespace DummyNamespace;
+
+use LaravelValidators\Foundation\Validator;
+
+class DummyClass implements Validator
+{
+    /**
+     * Validate the given attribute.
+     *
+     * @param  string  $attribute
+     * @param  mixed  $value
+     * @param  array  $parameters
+     * @param  \Illuminate\Contracts\Validation\Validator  $validator
+     * @return mixed
+     */
+    public function validate($attribute, $value, $parameters, $validator)
+    {
+        //
+    }
+
+    /**
+     * Set the validation error message.
+     *
+     * @return string
+     */
+    public function message()
+    {
+        //
+    }
+}

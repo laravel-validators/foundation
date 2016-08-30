@@ -1,0 +1,34 @@
+{
+    "name": "laravel-validators/foundation",
+    "description": "An opinionated way to register custom validators in Laravel.",
+    "keywords": ["laravel", "validator"],
+    "homepage": "https://github.com/laravel-validators/foundation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher L Bray",
+            "email": "chris@brayniverse.com",
+            "homepage": "http://brayniverse.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "5.3.*",
+        "illuminate/validation": "5.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelValidators\\Foundation\\": "src/"
+        },
+        "classmap": [
+            "tests"
+        ]
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    }
+}

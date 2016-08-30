@@ -27,7 +27,7 @@ class ValidationServiceProvider extends ServiceProvider
    * @var array
    */
   protected $rules = [
-  //  'gender' => \App\Validators\MyValidator::class,
+  //  'gender' => \App\Validators\GenderValidator::class,
   ];
 
   /**

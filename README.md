@@ -10,14 +10,14 @@ Begin by installing the package through [Composer](https://getcomposer.org).
 $ composer require laravel-validators/foundation
 ```
 
-Create a service provider that extends `LaravelValidators\Foundation\ValidatorServiceProvider`.
+Create a service provider that extends `LaravelValidators\Foundation\ValidationServiceProvider`.
 
 ```php
 <?php
 
 namespace App\Providers;
 
-use LaravelValidators\Foundation\ValidatorServiceProvider as ServiceProvider;
+use LaravelValidators\Foundation\ValidationServiceProvider as ServiceProvider;
 
 class ValidationServiceProvider extends ServiceProvider
 {

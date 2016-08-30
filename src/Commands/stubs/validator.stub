@@ -24,7 +24,7 @@ class DummyClass
      *
      * @return string
      */
-    public function message()
+    public static function message()
     {
         //
     }

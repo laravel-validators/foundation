@@ -23,10 +23,12 @@
     "autoload": {
         "psr-4": {
             "LaravelValidators\\Foundation\\": "src/"
-        },
-        "classmap": [
-            "tests"
-        ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "scripts": {
         "test": "vendor/bin/phpunit tests"

@@ -1,9 +1,11 @@
 <?php
 
-class TestCase extends \Orchestra\Testbench\TestCase
+namespace Tests;
+
+abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
-        return [ServiceProvider::class];
+        return [\Tests\Fixtures\TestServiceProvider::class];
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests;
+
 use Illuminate\Support\Facades\Validator;
 
 class CustomValidatorsTest extends TestCase

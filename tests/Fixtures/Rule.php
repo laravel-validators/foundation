@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\Fixtures;
+
 class Rule
 {
     public function validate($attribute, $value, $parameters, $validator)

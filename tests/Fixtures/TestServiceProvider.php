@@ -1,8 +1,10 @@
 <?php
 
+namespace Tests\Fixtures;
+
 use LaravelValidators\Foundation\ValidationServiceProvider;
 
-class ServiceProvider extends ValidationServiceProvider
+class TestServiceProvider extends ValidationServiceProvider
 {
     protected $rules = [
         'class_rule' => Rule::class,

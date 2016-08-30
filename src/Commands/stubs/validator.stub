@@ -2,9 +2,8 @@
 
 namespace DummyNamespace;
 
-use LaravelValidators\Foundation\Validator;
 
-class DummyClass implements Validator
+class DummyClass
 {
     /**
      * Validate the given attribute.

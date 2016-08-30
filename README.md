@@ -1,5 +1,11 @@
 # Foundation
 
+[![Build Status](https://travis-ci.org/laravel-validators/foundation.svg)](https://travis-ci.org/laravel-validators/foundation)
+[![Total Downloads](https://poser.pugx.org/laravel-validators/foundation/d/total.svg)](https://packagist.org/laravel-validators/foundation)
+[![Latest Stable Version](https://poser.pugx.org/laravel-validators/foundation/v/stable.svg)](https://packagist.org/packages/laravel-validators/foundation)
+[![Latest Unstable Version](https://poser.pugx.org/laravel-validators/foundation/v/unstable.svg)](https://packagist.org/packages/laravel-validators/foundation)
+[![License](https://poser.pugx.org/laravel-validators/foundation/license.svg)](https://packagist.org/packages/laravel-validators/foundation)
+
 An opinionated way to register custom validators in Laravel.
 
 ## Installation

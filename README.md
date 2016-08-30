@@ -123,7 +123,7 @@ public function rules()
 
 ### Error messages
 
-If your custom validator class provides a public `message()` method, it will be used to retrieve the validation message.
+If your custom validator class provides a public static `message()` method, it will be used to retrieve the validation message.
 
 ```php
 <?php
@@ -151,7 +151,7 @@ class GenderValidator
    *
    * @return string
    */
-  public function message()
+  public static function message()
   {
     return 'You can only specify male or female as your gender.';
   }

@@ -83,7 +83,7 @@ abstract class ValidationServiceProvider extends ServiceProvider
     private function getValidatorMessage($validator)
     {
         if (! method_exists($validator, 'message')) {
-            return null;
+            return;
         }
 
         return call_user_func([$validator, 'message']);

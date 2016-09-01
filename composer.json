@@ -26,9 +26,9 @@
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
+        "classmap": [
+            "tests"
+        ]
     },
     "scripts": {
         "test": "vendor/bin/phpunit tests"

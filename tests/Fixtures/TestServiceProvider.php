@@ -1,7 +1,5 @@
 <?php
 
-namespace Tests\Fixtures;
-
 use LaravelValidators\Foundation\ValidationServiceProvider;
 
 class TestServiceProvider extends ValidationServiceProvider

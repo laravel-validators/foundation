@@ -151,6 +151,11 @@ class GenderValidator
   {
     return in_array($value, ['male', 'female']);
   }
+  
+  public function sanitize($value)
+  {
+    return strtolower($value);
+  }
 
   /**
    * Set the validation error message.
@@ -163,6 +168,45 @@ class GenderValidator
   }
 }
 ```
+
+### Sanitize input
+
+If you want to sanitise data before it is validated, you can specify a sanitize method on your validator.
+
+```php
+<?php
+
+namespace App\Validators;
+
+class GenderValidator
+{
+  /**
+   * Validate the given value.
+   *
+   * @param  string  $attribute
+   * @param  mixed  $value
+   * @param  array  $parameters
+   * @param  \Illuminate\Contracts\Validation\Validator  $validator
+   * @return  bool
+   */
+  public function validate($attribute, $value, $parameters, $validator)
+  {
+    return in_array($value, ['male', 'female']);
+  }
+  
+  /**
+   * Sanitize the given value before it is validated. 
+   *
+   * @param mixed
+   * @return mixed
+   */
+  public function sanitize($value)
+  {
+    return strtolower($value);
+  }
+}
+```
+
 
 ## Credits
 

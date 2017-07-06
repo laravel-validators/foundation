@@ -193,17 +193,17 @@ class GenderValidator
   {
     return in_array($value, ['male', 'female']);
   }
-  
-  /**
-   * Sanitize the given value before it is validated. 
-   *
-   * @param mixed
-   * @return mixed
-   */
-  public function sanitize($value)
-  {
-    return strtolower($value);
-  }
+  
+  /**
+   * Sanitize the given value before it is validated.
+   *
+   * @param mixed $value
+   * @return mixed
+   */
+  public function sanitize($value)
+  {
+    return strtolower($value);
+  }
 }
 ```
 
